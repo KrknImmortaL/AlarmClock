@@ -1,7 +1,7 @@
 body,html {
     margin: 0;
     padding: 0;
-    background-color: #282444;
+    background-color: #1f2937;
 }
 * {
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    color: #1b5bc9;
+    color: #f3f4f6;
 
 }    
 
@@ -28,7 +28,7 @@ body {
 #clock {
     font-family: 'Electrolize', sans-serif;
     font-size: 50px;
-    background-color: #498AFB;
+    background-color: #f3f4f6;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -44,16 +44,16 @@ body {
     font-weight: bold;
     border-radius: 5px;
     border: none;
-    color: white;
+    color: #f3f4f6;
     padding: 8px 13px;
     margin-left: 4px;
     cursor: pointer;
 }
 
 .set-alarm {
-    background-color: #1b5bc9;
+    background-color: crimson;
 }
 
 .clear-alarm {
-    background-color: #068d06;
+    background-color: #019701;
 }
