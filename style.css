@@ -5,6 +5,7 @@ body,html {
 }
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -14,20 +15,30 @@ body {
     justify-content: center;
     align-items: center;
     color: #f3f4f6;
-
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
 }    
 
 .container {
-    min-height: 60vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #111827;
+    width: 100%;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: .75rem;
+    
 }
 
 #clock {
     font-family: 'Electrolize', sans-serif;
-    font-size: 50px;
+    font-size: 5rem;
     background-color: #f3f4f6;
     background-clip: text;
     -webkit-background-clip: text;
